@@ -1,5 +1,5 @@
-import React, { useCallback } from 'react';
-import { FiAlertCircle, FiXCircle } from 'react-icons/fi';
+import React from 'react';
+
 import { useTransition } from 'react-spring';
 import Toast from './Toast';
 import { Container } from './style';
