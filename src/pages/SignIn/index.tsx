@@ -66,7 +66,7 @@ const SignIn: React.FC = () => {
                 <AnimationContainer>
                     <img src={logo} alt="Gobarber web" />
                     <Form ref={formRef} onSubmit={handleSubmit}>
-                        <h1>Faça seu logon</h1>
+                        <h1>Acesse agora!</h1>
                         <Input
                             name="email"
                             placeholder="E-mail"
@@ -74,6 +74,7 @@ const SignIn: React.FC = () => {
                         />
                         <Input
                             name="password"
+                            type="password"
                             placeholder="Senha"
                             icon={FiLock}
                         />
